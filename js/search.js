@@ -119,7 +119,7 @@ AI Score: ${item.aiScore}
 
 
 
-<a href="#" class="primary-btn">
+<<a href="recommendation-details.html?id=${item.id}" class="primary-btn">
 
 Read More
 

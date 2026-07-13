@@ -1,44 +1,118 @@
 [
 {
-"name": "ChatGPT",
+"id": 1,
+"name": "ChatGPT Pro",
 "category": "AI Tools",
-"description": "An AI assistant for writing, coding, brainstorming, and productivity.",
-"rating": "4.9",
-"aiScore": "98%"
+"description": "An AI assistant for writing, coding, brainstorming and productivity.",
+"fullDescription": "ChatGPT helps individuals and businesses write content, generate ideas, answer questions, build software, analyze documents and automate repetitive work with AI.",
+"rating": 4.9,
+"aiScore": 98,
+"pros": [
+"Excellent writing assistant",
+"Powerful coding support",
+"Fast responses",
+"Easy to use"
+],
+"cons": [
+"Requires internet connection",
+"Premium features require subscription"
+],
+"image": "images/chatgpt.jpg"
 },
 {
+"id": 2,
 "name": "Notion",
 "category": "Productivity",
-"description": "An all-in-one workspace for notes, projects, and team collaboration.",
-"rating": "4.8",
-"aiScore": "96%"
+"description": "An all-in-one workspace for notes, projects and collaboration.",
+"fullDescription": "Notion combines notes, databases, project management, documentation and AI into one flexible workspace for individuals and teams.",
+"rating": 4.8,
+"aiScore": 96,
+"pros": [
+"Beautiful interface",
+"Very flexible",
+"Great collaboration",
+"Excellent organization"
+],
+"cons": [
+"Learning curve",
+"Can become complex"
+],
+"image": "images/notion.jpg"
 },
 {
+"id": 3,
 "name": "Airbnb",
 "category": "Travel",
-"description": "Discover unique stays and travel experiences around the world.",
-"rating": "4.8",
-"aiScore": "95%"
+"description": "Book unique homes and travel experiences around the world.",
+"fullDescription": "Airbnb allows travelers to discover apartments, villas and unique accommodations in thousands of cities worldwide.",
+"rating": 4.8,
+"aiScore": 95,
+"pros": [
+"Unique accommodation",
+"Worldwide availability",
+"Easy booking"
+],
+"cons": [
+"Cleaning fees",
+"Prices vary by season"
+],
+"image": "images/airbnb.jpg"
 },
 {
+"id": 4,
 "name": "Spotify",
 "category": "Entertainment",
-"description": "Stream music and podcasts with personalized recommendations.",
-"rating": "4.9",
-"aiScore": "97%"
+"description": "Music and podcast streaming platform.",
+"fullDescription": "Spotify gives users access to millions of songs, podcasts and personalized playlists across multiple devices.",
+"rating": 4.9,
+"aiScore": 97,
+"pros": [
+"Huge music library",
+"Excellent recommendations",
+"Works across devices"
+],
+"cons": [
+"Ads on free plan",
+"Offline mode requires Premium"
+],
+"image": "images/spotify.jpg"
 },
 {
+"id": 5,
 "name": "Coursera",
 "category": "Education",
-"description": "Learn new skills through courses from universities and companies.",
-"rating": "4.8",
-"aiScore": "96%"
+"description": "Online learning platform with professional courses.",
+"fullDescription": "Coursera offers university and industry courses, certificates and professional programs taught by leading institutions.",
+"rating": 4.8,
+"aiScore": 96,
+"pros": [
+"High-quality courses",
+"Recognized certificates",
+"Flexible learning"
+],
+"cons": [
+"Some certificates are paid",
+"Requires self-discipline"
+],
+"image": "images/coursera.jpg"
 },
 {
+"id": 6,
 "name": "Amazon",
 "category": "Shopping",
-"description": "Find products with customer reviews and recommendations.",
-"rating": "4.7",
-"aiScore": "94%"
+"description": "Global online shopping marketplace.",
+"fullDescription": "Amazon provides millions of products, customer reviews and fast delivery options across numerous categories.",
+"rating": 4.7,
+"aiScore": 94,
+"pros": [
+"Massive product selection",
+"Fast shipping",
+"Reliable customer reviews"
+],
+"cons": [
+"Counterfeit products can appear",
+"Prime membership costs extra"
+],
+"image": "images/amazon.jpg"
 }
 ]
