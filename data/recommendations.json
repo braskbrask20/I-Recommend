@@ -1,0 +1,44 @@
+[
+{
+"name": "ChatGPT",
+"category": "AI Tools",
+"description": "An AI assistant for writing, coding, brainstorming, and productivity.",
+"rating": "4.9",
+"aiScore": "98%"
+},
+{
+"name": "Notion",
+"category": "Productivity",
+"description": "An all-in-one workspace for notes, projects, and team collaboration.",
+"rating": "4.8",
+"aiScore": "96%"
+},
+{
+"name": "Airbnb",
+"category": "Travel",
+"description": "Discover unique stays and travel experiences around the world.",
+"rating": "4.8",
+"aiScore": "95%"
+},
+{
+"name": "Spotify",
+"category": "Entertainment",
+"description": "Stream music and podcasts with personalized recommendations.",
+"rating": "4.9",
+"aiScore": "97%"
+},
+{
+"name": "Coursera",
+"category": "Education",
+"description": "Learn new skills through courses from universities and companies.",
+"rating": "4.8",
+"aiScore": "96%"
+},
+{
+"name": "Amazon",
+"category": "Shopping",
+"description": "Find products with customer reviews and recommendations.",
+"rating": "4.7",
+"aiScore": "94%"
+}
+]
