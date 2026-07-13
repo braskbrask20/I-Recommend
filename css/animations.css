@@ -1,0 +1,117 @@
+/* =========================
+FADE ANIMATION
+========================= */
+
+
+@keyframes fadeIn {
+
+from {
+
+opacity: 0;
+
+transform: translateY(20px);
+
+}
+
+
+to {
+
+opacity: 1;
+
+transform: translateY(0);
+
+}
+
+}
+
+
+
+
+
+/* =========================
+FLOAT ANIMATION
+========================= */
+
+
+@keyframes float {
+
+
+0% {
+
+transform: translateY(0);
+
+}
+
+
+
+50% {
+
+transform: translateY(-15px);
+
+}
+
+
+
+100% {
+
+transform: translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+/* =========================
+APPLY ANIMATIONS
+========================= */
+
+
+.hero-content {
+
+animation: fadeIn 1s ease forwards;
+
+}
+
+
+
+.ai-card {
+
+animation: float 4s ease-in-out infinite;
+
+}
+
+
+
+.category-card {
+
+animation: fadeIn 0.8s ease forwards;
+
+}
+
+
+
+
+
+/* =========================
+HOVER EFFECTS
+========================= */
+
+
+.category-card:hover {
+
+transition: transform 0.3s ease;
+
+}
+
+
+
+.primary-btn:hover,
+.secondary-btn:hover {
+
+transition: all 0.3s ease;
+
+}

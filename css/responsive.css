@@ -1,0 +1,178 @@
+/* =========================
+TABLET RESPONSIVENESS
+========================= */
+
+
+@media (max-width: 1024px) {
+
+
+.navbar {
+
+padding: 20px 30px;
+
+}
+
+
+
+.hero {
+
+padding: 70px 30px;
+
+gap: 30px;
+
+}
+
+
+
+.hero h1 {
+
+font-size: 45px;
+
+}
+
+
+
+.hero-image {
+
+width: 300px;
+
+height: 300px;
+
+}
+
+
+
+.category-container {
+
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+}
+
+
+
+
+
+/* =========================
+MOBILE RESPONSIVENESS
+========================= */
+
+
+@media (max-width: 768px) {
+
+
+
+.navbar {
+
+flex-direction: column;
+
+gap: 20px;
+
+padding: 20px;
+
+}
+
+
+
+.nav-links {
+
+flex-direction: column;
+
+text-align: center;
+
+gap: 15px;
+
+}
+
+
+
+.auth-buttons {
+
+justify-content: center;
+
+}
+
+
+
+.hero {
+
+flex-direction: column;
+
+text-align: center;
+
+padding: 50px 20px;
+
+}
+
+
+
+.hero h1 {
+
+font-size: 36px;
+
+}
+
+
+
+.hero p {
+
+font-size: 16px;
+
+}
+
+
+
+.hero-actions {
+
+flex-direction: column;
+
+align-items: center;
+
+}
+
+
+
+.hero-image {
+
+width: 250px;
+
+height: 250px;
+
+}
+
+
+
+.category-container {
+
+grid-template-columns: 1fr;
+
+}
+
+
+
+.categories-preview {
+
+padding: 50px 20px;
+
+}
+
+
+
+.ai-section {
+
+padding: 50px 20px;
+
+}
+
+
+
+.newsletter {
+
+padding: 50px 20px;
+
+}
+
+
+}

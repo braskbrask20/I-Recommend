@@ -244,3 +244,19 @@ padding:var(--space-md);
 background:white;
 
 }
+
+.ai-section,
+.newsletter {
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.ai-section h2,
+.newsletter h2 {
+margin-bottom: 10px;
+}
+
+.ai-section p,
+.newsletter p {
+margin-top: 0;
+}
