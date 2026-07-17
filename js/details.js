@@ -46,8 +46,13 @@ document.querySelector(".details-rating span:last-child").textContent =
 document.querySelector(".details-content p").textContent =
 recommendation.fullDescription;
 
-document.querySelector(".placeholder-image").textContent =
-recommendation.name;
+const image = document.getElementById("recommendationImage");
+
+image.src = recommendation.image;
+
+image.alt = recommendation.name;
+
+console.log(recommendation.image);
 
 
 
