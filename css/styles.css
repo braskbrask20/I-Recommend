@@ -664,3 +664,66 @@ border-radius:16px;
 display:block;
 
 }
+
+.user-rating {
+margin-top: 40px;
+}
+
+#ratingStars {
+display: flex;
+gap: 10px;
+font-size: 2rem;
+cursor: pointer;
+margin: 15px 0;
+}
+
+#ratingStars span {
+opacity: 0.4;
+transition: opacity 0.2s ease;
+}
+
+#ratingStars span.active {
+opacity: 1;
+}
+
+.user-reviews{
+margin-top:50px;
+}
+
+#reviewInput{
+
+width:100%;
+
+min-height:120px;
+
+padding:15px;
+
+border-radius:10px;
+
+margin:20px 0;
+
+font-size:1rem;
+
+resize:vertical;
+
+}
+
+#reviewsContainer{
+
+margin-top:30px;
+
+}
+
+.review-card{
+
+padding:20px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+margin-bottom:15px;
+
+background:#fff;
+
+}

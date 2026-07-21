@@ -119,19 +119,74 @@ Cons
 
 
 
-<div class="details-actions">
+<div <div class="details-actions">
 
-<a href="#" class="primary-btn">
-
-Visit Official Website
-
-</a>
-
-<button class="secondary-btn" id="saveRecommendationBtn"
+<button class="secondary-btn" id="saveRecommendationBtn">
 
 ❤️ Save Recommendation
 
 </button>
+
+</div>
+
+<section class="user-rating">
+
+<h2>
+
+Rate this Recommendation
+
+</h2>
+
+<div id="ratingStars">
+
+<span data-rating="1">⭐</span>
+
+<span data-rating="2">⭐</span>
+
+<span data-rating="3">⭐</span>
+
+<span data-rating="4">⭐</span>
+
+<span data-rating="5">⭐</span>
+
+</div>
+
+<p id="ratingMessage">
+
+No rating yet.
+
+</p>
+
+</section>
+
+<section class="user-reviews">
+
+<h2>
+
+User Reviews
+
+</h2>
+
+<textarea
+id="reviewInput"
+placeholder="Write your review here..."
+></textarea>
+
+<button
+class="primary-btn"
+id="submitReviewBtn">
+
+Submit Review
+
+</button>
+
+<div id="reviewsContainer">
+
+</div>
+
+</section>
+
+
 
 </div>
 
@@ -208,8 +263,9 @@ View Details
 </footer>
 
 <script src="js/app.js"></script>
-
 <script src="js/details.js"></script>
+<script src="js/ratings.js"></script>
+<script src="js/reviews.js"></script>
 
 </body>
 
